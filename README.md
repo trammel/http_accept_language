@@ -14,6 +14,14 @@ Extended language subtags are partially supported. The "zh" primary language sub
 
 Since version 2.0, this gem is Rack middleware.
 
+## Added fixes
+
+This fork contains fixes from
+
+* https://github.com/knu/http_accept_language (Fixes for modern ruby)
+* https://github.com/mobiledefense/http_accept_language (Chinese language fixes)
+* Fixes for more recent aruba
+
 ## Example
 
 The `http_accept_language` method is available in any controller:
