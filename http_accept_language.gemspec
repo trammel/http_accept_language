@@ -12,8 +12,6 @@ Gem::Specification.new do |s|
   s.description = %q{Find out which locale the user preferes by reading the languages they specified in their browser}
   s.license     = "MIT"
 
-  s.rubyforge_project = "http_accept_language"
-
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
