@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = HttpAcceptLanguage::VERSION
   s.authors     = ["iain"]
   s.email       = ["iain@iain.nl"]
-  s.homepage    = "https://github.com/iain/http_accept_language"
+  s.homepage    = "https://github.com/trammel/http_accept_language"
   s.summary     = %q{Find out which locale the user preferes by reading the languages they specified in their browser}
   s.description = %q{Find out which locale the user preferes by reading the languages they specified in their browser}
   s.license     = "MIT"
@@ -21,8 +21,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rack-test'
   s.add_development_dependency 'guard-rspec'
-  s.add_development_dependency 'listen', '< 3.1.0' if RUBY_VERSION < '2.2.5'
-  s.add_development_dependency 'rails', ['>= 3.2.6', *('< 5' if RUBY_VERSION < '2.2.2')]
-  s.add_development_dependency 'cucumber'
-  s.add_development_dependency 'aruba', '~> 0.14.2'
+  s.add_development_dependency 'listen'
+  s.add_development_dependency 'rails'
 end
