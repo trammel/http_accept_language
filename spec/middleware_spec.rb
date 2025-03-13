@@ -1,4 +1,5 @@
 require 'http_accept_language'
+require 'rack/builder'
 require 'rack/test'
 require 'json'
 
